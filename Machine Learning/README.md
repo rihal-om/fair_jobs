@@ -27,5 +27,5 @@ Develop a streamlit app that can does the following:
 
 ## Submission
 
-Submit your work through GitHub and email the repository link to `careers@rihal.com`. Include your name, contact information, a brief introduction, and the question you solved.
+Submit your work through GitHub and email the repository link to `careers@rihal.om`. Include your name, contact information, a brief introduction, and the question you solved.
 Also upload video recording of the project running successfully.

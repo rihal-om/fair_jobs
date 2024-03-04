@@ -27,4 +27,4 @@ Develop an Event Countdown web application allowing users to create events, with
 
 ## Submission
 
-Submit via GitHub, providing a repository link to `careers@rihal.com` with your details and solved question.
+Submit via GitHub, providing a repository link to `careers@rihal.om` with your details and solved question.
