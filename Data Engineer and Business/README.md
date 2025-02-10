@@ -24,6 +24,8 @@
 ## Notes
 
 - Focus is purely on Python for fetching data and visualization.
+- The line graph, bar chart, and scatter plot use only the first 10 cryptocurrency coins while the donut chart uses the first 5 cryptocurrency coins.
+- The values of visuals should exactly same as in the expected outcome sample.
 
 ## Extras
 
