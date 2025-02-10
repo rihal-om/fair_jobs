@@ -32,9 +32,9 @@ Create a web application that allows users to paste a URL of product reviews and
 
 ## 🎨 Very Basic Example of the UI Design (Please DO NOT take this as a requirement, you can be creative in design)
 
-![alt text](<Group 1.png>)
+![alt text](<Group 1 (1).png>)
 
-![alt text](image-2.png)
+![alt text](<Screenshot from 2025-02-10 13-33-18 1.png>)
 
 The UI design showcases a clean and modern interface with the following key elements:
 
@@ -47,6 +47,8 @@ The UI design showcases a clean and modern interface with the following key elem
 - **Frontend Framework**: Next.js, React, Vue, Angular, or any modern framework
 - **Styling**: Tailwind CSS, SCSS, or any preferred styling method
 - **Animations**: CSS animations or JavaScript-based libraries (e.g., GSAP, Framer Motion)
+
+📢 **Important Note**: You do not need to build your own API model for summarization. Please use free, publicly available APIs for this challenge.
 
 ## 🚀 Additional Enhancements
 
@@ -79,5 +81,3 @@ The UI design showcases a clean and modern interface with the following key elem
 4. **Submission**
 
    - Submit via GitHub by providing a repository link (public repository, not private) to `careers@rihal.om` with your details and the completed challenge.
-
-📢 **Important Note**: You do not need to build your own API model for summarization. Please use free, publicly available APIs for this challenge.
