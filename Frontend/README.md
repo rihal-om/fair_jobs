@@ -2,15 +2,14 @@
 
 ## 🎯 Objective
 
-Create a web application that allows users to paste a URL of prduct reviews and receive a concise summary of the content using ai api . The application should provide a user-friendly interface, and offer additional features to enhance the user experience.
+Create a web application that allows users to paste a URL of product reviews and receive a concise summary of the content using an AI API. The application should provide a user-friendly interface and offer additional features to enhance the user experience.
 
 ## 📌 Features & Requirements
 
 ### 🏡 URL Input and Summarization
 
 - Allow users to input a URL
-- Fetch the content from the provided URL
-- Generate a concise summary of the content
+- Generate a concise summary of the product reviews
 
 ### 🔍 Summary Display
 
@@ -21,7 +20,6 @@ Create a web application that allows users to paste a URL of prduct reviews and 
 ### 📱 Responsive Design
 
 - Ensure the application is usable on desktop and mobile devices
-- Implement a sidebar for larger screens and a collapsible menu for mobile
 
 ### 🌓 Theme Toggle
 
@@ -30,9 +28,9 @@ Create a web application that allows users to paste a URL of prduct reviews and 
 
 ### 🚨 Error Handling
 
-- Provides user-friendly error messages for a smooth experience.
+- Provide user-friendly error messages for a smooth experience
 
-## 🎨 Current UI Design
+## 🎨 Very Basic Example of the UI Design (Please DO NOT take this as a requirement, you can be creative in design)
 
 ![alt text](<Group 1.png>)
 
@@ -50,41 +48,36 @@ The UI design showcases a clean and modern interface with the following key elem
 - **Styling**: Tailwind CSS, SCSS, or any preferred styling method
 - **Animations**: CSS animations or JavaScript-based libraries (e.g., GSAP, Framer Motion)
 
-📢 **Important Note**: You do not need to build your own API model for summarization. Please use free, publicly available APIs for this challenge.
-
 ## 🚀 Additional Enhancements
 
 1. **Custom Summarization Options**
 
-   - Allow users to adjust summary length
-   - Implement filtering options
+   - Implement a filtering feature, where users can input words and the tool should highlight them.
 
-2. **Export Functionality**
+2. **Multilingual Support**
 
-   - Enable users to export their summary history in various formats (CSV, PDF)
+   - Implement full Arabic language support, including RTL layout, translations, and proper text rendering for all UI elements and summaries.
 
-3. **Multilingual Support**
+3. **Test Suite**
 
-   - Implement full Arabic language support, including RTL layout, translations, and proper text rendering for all UI elements and summaries
-
-4. **Test Suite**
-
-   - Unit tests and integration tests for critical components
+   - Unit tests and integration tests for critical components.
 
 ## 📦 Deliverables
 
 1. **Source Code**
 
-   - Well-organized and commented code repository
+   - Well-organized and commented code repository.
 
 2. **Documentation**
 
-   - README file with setup instructions and project overview
-   - API documentation for any backend services
+   - README file with setup instructions and project overview mentioning the APIs being used.
 
 3. **Deployment**
 
-   - Live demo of the application deployed on a hosting platform (e.g., Vercel)
+   - Live demo of the application deployed on a hosting platform (e.g., Vercel).
 
 4. **Submission**
-   - Submit via GitHub providing a repository link (public repository, not private) to `careers@rihal.om` with your details and the completed challenge.
+
+   - Submit via GitHub by providing a repository link (public repository, not private) to `careers@rihal.om` with your details and the completed challenge.
+
+📢 **Important Note**: You do not need to build your own API model for summarization. Please use free, publicly available APIs for this challenge.
