@@ -1,31 +1,40 @@
-# Cars detection and counting!
+# Sentiment Analysis Challenge
 
-![sample-results](sample-results.gif)
+## Overview
+Build a model to classify Amazon reviews as positive or negative. The dataset has 19,396 reviews with:
+- **text**: review content
+- **label**: sentiment (0 for negative, 1 for positive)
 
-## Objective
+![sentiment_analysis](sentiment_analysis.png)  
+![amazon_reviews](dataset_str.png)
 
-Your task is to create a car counter from a given video using [YOLO](https://github.com/ultralytics/ultralytics) pre-trained models. Then develop a [Streamlit app](https://streamlit.io/) to allow the user to upload the video to get processed, after that, the processed video should be displayed to the user.
+## Instructions
+
+1. **Starter Notebook**  
+   Begin with [`challenge_starter_template.ipynb`](challenge_starter_template.ipynb).
+
+2. **Project Tasks**
+   - **EDA:**  
+     Check for missing values, distributions, duplicates, and review lengths. Visualize your findings.
+   - **Preprocessing:**  
+     Clean text (remove punctuation/stopwords, tokenize, lemmatize), convert to numerical features (e.g., TF-IDF), encode labels, and split data (use `random_state=42`).
+   - **Model Building:**  
+     Implement your sentiment classifier (using ML or deep learning methods).
+   - **Evaluation:**  
+     Report the F1 score and compare training vs. validation performance.
+   - **Inferencing (Optional):**  
+     Test your model on unseen data.
 
 
-## Tasks
-
-Develop a streamlit app that can does the following:
-1. Accepts video file upload as an input ([Use this file](cars.mp4))
-2. Uses any YOLO pre-trained model to detect the cars moving in the video
-3. Draws bounding boxes on the cars, and annotate each box with the object name (e.g. "Car" "Truck", "Motorbike")
-4. Extra: Count the cars only in the incoming lane (check image below)
-5. Extra: Keep separate count for cars, trucks, motorbikes...
-
-![trafficlane](incoming_traffic.jpg)
-
-## Notes
-
-- Include the processed video in your submission (the cars video with annotations, boxes and cars counted)
-- Include `requirements.txt` file or any equivalent file to set the project dependencies requirement
-
-
+## Getting Started
+- Set up your environment as described in the starter notebook.
+- Open `challenge_starter_template.ipynb` and follow the tasks.
 
 ## Submission
 
 Submit your work through GitHub and email the repository link to `careers@rihal.om`. Include your name, contact information, a brief introduction, and the question you solved.
 Also upload video recording of the project running successfully.
+
+
+
+
